@@ -7,7 +7,7 @@
 
     <RelativeLayout
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
+        android:layout_height="205dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -77,8 +77,20 @@
             android:text="0.00TL"
             android:id="@+id/textView7"
             android:textSize="45dp"
-            android:layout_above="@+id/textView2"
+            android:layout_alignParentTop="true"
             android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" />
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="132dp"
+            android:layout_marginEnd="132dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:src="@mipmap/ic_detail_thin"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true" />
     </RelativeLayout>
 </LinearLayout>
